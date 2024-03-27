@@ -33,6 +33,21 @@ function NavMd() {
           className="w-full bg-transparent border-none focus:outline-none"
         />
       </div>
+      <div className="flex mx-20 items-center justify-between">
+        <div className="mx-10">
+          <select name="Locations" className="justify-around">
+            <option value="Delhi-NCR">Delhi-NCR</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Banglore">Banglore</option>
+            <option value="Hyderabad">Hyderabad</option>
+            <option value="Ahmedabad">Ahmedabad</option>
+            <option value="Chandigarh">Chandigarh</option>
+          </select>
+        </div>
+        <div className="bg-danger">
+          <button>Sign in</button>
+        </div>
+      </div>
     </>
   );
 }
